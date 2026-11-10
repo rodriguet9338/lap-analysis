@@ -9,9 +9,9 @@ Status: early. See the table below for what exists.
 
 | Area | State |
 | --- | --- |
-| XRK/XRZ parsing (Swift port of libxrk) | Implemented; golden-file test written, not yet run on a Mac |
-| Distance resampling, time delta, splits, histogram | Implemented; unit tests written, not yet run on a Mac |
-| Mac app: load sessions, lap table, channel + delta plots, track map, splits | First version, not yet compiled |
+| XRK/XRZ parsing (Swift port of libxrk) | Implemented; golden-file test passes in CI |
+| Distance resampling, time delta, splits, histogram | Implemented; unit tests pass in CI |
+| Mac app: load sessions, lap table, channel + delta plots, track map, splits | First version; compiles in CI, not yet run by a human |
 | Wi-Fi download from the Solo 2 | Not started; needs packet captures (`docs/wifi-protocol.md`) |
 | Sharing laps with friends | For now: load their `.xrk` alongside yours |
 | iOS | Not started; `LapCore` is kept UI-free for it |
